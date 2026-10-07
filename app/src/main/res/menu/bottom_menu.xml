@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pregunta1Fragment"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Pregunta 1" />
+    <item
+        android:id="@+id/pregunta2Fragment"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Pregunta 2" />
+    <item
+        android:id="@+id/pregunta3Fragment"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Pregunta 3" />
+    <item
+        android:id="@+id/pregunta4Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="Pregunta 4" />
+</menu>

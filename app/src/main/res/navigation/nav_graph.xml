@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pregunta1Fragment">
+
+    <fragment
+        android:id="@+id/pregunta1Fragment"
+        android:name="pe.edu.cibertec.t2.Pregunta1Fragment"
+        android:label="fragment_pregunta_1"
+        tools:layout="@layout/fragment_pregunta_1" />
+
+    <fragment
+        android:id="@+id/pregunta2Fragment"
+        android:name="pe.edu.cibertec.t2.Pregunta2Fragment"
+        android:label="fragment_pregunta_2"
+        tools:layout="@layout/fragment_pregunta_2" />
+
+    <fragment
+        android:id="@+id/pregunta3Fragment"
+        android:name="pe.edu.cibertec.t2.Pregunta3Fragment"
+        android:label="fragment_pregunta_3"
+        tools:layout="@layout/fragment_pregunta_3" />
+
+    <fragment
+        android:id="@+id/pregunta4Fragment"
+        android:name="pe.edu.cibertec.t2.Pregunta4Fragment"
+        android:label="fragment_pregunta_4"
+        tools:layout="@layout/fragment_pregunta_4" />
+
+</navigation>
